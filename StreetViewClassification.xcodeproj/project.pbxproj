@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120E113128530FD600F24879 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120E113028530FD600F24879 /* ProgressView.swift */; };
+		127056202832A9A400E54F1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1270561F2832A9A400E54F1A /* ContentView.swift */; };
+		12892C95282FDF07006BFBB3 /* StreetViewClassificationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12892C94282FDF07006BFBB3 /* StreetViewClassificationApp.swift */; };
+		12892C99282FDF08006BFBB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12892C98282FDF08006BFBB3 /* Assets.xcassets */; };
+		12892C9C282FDF08006BFBB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12892C9B282FDF08006BFBB3 /* Preview Assets.xcassets */; };
+		12A57368284E6049002E91F9 /* CityImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A57367284E6049002E91F9 /* CityImage.swift */; };
+		12AE644C28523F0E008DD1F3 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AE644B28523F0E008DD1F3 /* ActivityIndicator.swift */; };
+		12B91BAE283B6AD900FFE48D /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B91BAD283B6AD900FFE48D /* UIImageExtensions.swift */; };
+		12B972692839F665000FC578 /* UIimagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B972682839F665000FC578 /* UIimagePickerView.swift */; };
+		12B9726B2839F69F000FC578 /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9726A2839F69F000FC578 /* SelectView.swift */; };
+		12B9727B283A2580000FC578 /* ClassficationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9727A283A2580000FC578 /* ClassficationView.swift */; };
+		12CB1C502830CA65007AD2ED /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CB1C4F2830CA65007AD2ED /* BackgroundView.swift */; };
+		12CB1C572830EA82007AD2ED /* PHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CB1C562830EA82007AD2ED /* PHPickerView.swift */; };
+		12CD819D2861765400EF9CF7 /* AlartUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CD819C2861765400EF9CF7 /* AlartUpdate.swift */; };
+		12CD81A3286189BC00EF9CF7 /* Siren in Frameworks */ = {isa = PBXBuildFile; productRef = 12CD81A2286189BC00EF9CF7 /* Siren */; };
+		12E3E5542855AF58007CA341 /* ResNext50_32x4d.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 12E3E5532855AF58007CA341 /* ResNext50_32x4d.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		120E113028530FD600F24879 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		1270561F2832A9A400E54F1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		12892C91282FDF07006BFBB3 /* StreetViewClassification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetViewClassification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12892C94282FDF07006BFBB3 /* StreetViewClassificationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetViewClassificationApp.swift; sourceTree = "<group>"; };
+		12892C98282FDF08006BFBB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12892C9B282FDF08006BFBB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12A57367284E6049002E91F9 /* CityImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityImage.swift; sourceTree = "<group>"; };
+		12AE644B28523F0E008DD1F3 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		12B91BAD283B6AD900FFE48D /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		12B972682839F665000FC578 /* UIimagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIimagePickerView.swift; sourceTree = "<group>"; };
+		12B9726A2839F69F000FC578 /* SelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
+		12B9727A283A2580000FC578 /* ClassficationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassficationView.swift; sourceTree = "<group>"; };
+		12CB1C4F2830CA65007AD2ED /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		12CB1C512830DA18007AD2ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		12CB1C562830EA82007AD2ED /* PHPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerView.swift; sourceTree = "<group>"; };
+		12CD819C2861765400EF9CF7 /* AlartUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlartUpdate.swift; sourceTree = "<group>"; };
+		12E3E5532855AF58007CA341 /* ResNext50_32x4d.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ResNext50_32x4d.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12892C8E282FDF07006BFBB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CD81A3286189BC00EF9CF7 /* Siren in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12892C88282FDF07006BFBB3 = {
+			isa = PBXGroup;
+			children = (
+				12892C93282FDF07006BFBB3 /* StreetViewClassification */,
+				12892C92282FDF07006BFBB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12892C92282FDF07006BFBB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12892C91282FDF07006BFBB3 /* StreetViewClassification.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12892C93282FDF07006BFBB3 /* StreetViewClassification */ = {
+			isa = PBXGroup;
+			children = (
+				12CB1C512830DA18007AD2ED /* Info.plist */,
+				12892C94282FDF07006BFBB3 /* StreetViewClassificationApp.swift */,
+				1270561F2832A9A400E54F1A /* ContentView.swift */,
+				12B972682839F665000FC578 /* UIimagePickerView.swift */,
+				12CB1C562830EA82007AD2ED /* PHPickerView.swift */,
+				12B9726A2839F69F000FC578 /* SelectView.swift */,
+				12B9727A283A2580000FC578 /* ClassficationView.swift */,
+				12AE644B28523F0E008DD1F3 /* ActivityIndicator.swift */,
+				12CB1C4F2830CA65007AD2ED /* BackgroundView.swift */,
+				120E113028530FD600F24879 /* ProgressView.swift */,
+				12A57367284E6049002E91F9 /* CityImage.swift */,
+				12B91BAD283B6AD900FFE48D /* UIImageExtensions.swift */,
+				12CD819C2861765400EF9CF7 /* AlartUpdate.swift */,
+				12E3E5532855AF58007CA341 /* ResNext50_32x4d.mlmodel */,
+				12892C98282FDF08006BFBB3 /* Assets.xcassets */,
+				12892C9A282FDF08006BFBB3 /* Preview Content */,
+			);
+			path = StreetViewClassification;
+			sourceTree = "<group>";
+		};
+		12892C9A282FDF08006BFBB3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				12892C9B282FDF08006BFBB3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12892C90282FDF07006BFBB3 /* StreetViewClassification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12892C9F282FDF08006BFBB3 /* Build configuration list for PBXNativeTarget "StreetViewClassification" */;
+			buildPhases = (
+				12892C8D282FDF07006BFBB3 /* Sources */,
+				12892C8E282FDF07006BFBB3 /* Frameworks */,
+				12892C8F282FDF07006BFBB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreetViewClassification;
+			packageProductDependencies = (
+				12CD81A2286189BC00EF9CF7 /* Siren */,
+			);
+			productName = StreetViewClassification;
+			productReference = 12892C91282FDF07006BFBB3 /* StreetViewClassification.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12892C89282FDF07006BFBB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					12892C90282FDF07006BFBB3 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 12892C8C282FDF07006BFBB3 /* Build configuration list for PBXProject "StreetViewClassification" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ja,
+				en,
+				Base,
+			);
+			mainGroup = 12892C88282FDF07006BFBB3;
+			packageReferences = (
+				12CD81A1286189BC00EF9CF7 /* XCRemoteSwiftPackageReference "Siren" */,
+			);
+			productRefGroup = 12892C92282FDF07006BFBB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12892C90282FDF07006BFBB3 /* StreetViewClassification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12892C8F282FDF07006BFBB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12892C9C282FDF08006BFBB3 /* Preview Assets.xcassets in Resources */,
+				12892C99282FDF08006BFBB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12892C8D282FDF07006BFBB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B9727B283A2580000FC578 /* ClassficationView.swift in Sources */,
+				12A57368284E6049002E91F9 /* CityImage.swift in Sources */,
+				12CB1C502830CA65007AD2ED /* BackgroundView.swift in Sources */,
+				127056202832A9A400E54F1A /* ContentView.swift in Sources */,
+				12CB1C572830EA82007AD2ED /* PHPickerView.swift in Sources */,
+				12CD819D2861765400EF9CF7 /* AlartUpdate.swift in Sources */,
+				120E113128530FD600F24879 /* ProgressView.swift in Sources */,
+				12AE644C28523F0E008DD1F3 /* ActivityIndicator.swift in Sources */,
+				12B972692839F665000FC578 /* UIimagePickerView.swift in Sources */,
+				12B91BAE283B6AD900FFE48D /* UIImageExtensions.swift in Sources */,
+				12E3E5542855AF58007CA341 /* ResNext50_32x4d.mlmodel in Sources */,
+				12B9726B2839F69F000FC578 /* SelectView.swift in Sources */,
+				12892C95282FDF07006BFBB3 /* StreetViewClassificationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12892C9D282FDF08006BFBB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12892C9E282FDF08006BFBB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12892CA0282FDF08006BFBB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StreetViewClassification/Preview Content\"";
+				DEVELOPMENT_TEAM = 599WR9B4PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StreetViewClassification/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI 23区";
+				INFOPLIST_KEY_NSCameraUsageDescription = "撮影された写真データは外部に共有されません。AI判定の処理はモバイル端末上で行います";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "選択された写真データは外部に共有されません。AI判定の処理はモバイル端末上で行います";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Takayoshi-Makabe.StreetViewClassification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12892CA1282FDF08006BFBB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StreetViewClassification/Preview Content\"";
+				DEVELOPMENT_TEAM = 599WR9B4PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StreetViewClassification/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AI 23区";
+				INFOPLIST_KEY_NSCameraUsageDescription = "撮影された写真データは外部に共有されません。AI判定の処理はモバイル端末上で行います";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "選択された写真データは外部に共有されません。AI判定の処理はモバイル端末上で行います";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Takayoshi-Makabe.StreetViewClassification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12892C8C282FDF07006BFBB3 /* Build configuration list for PBXProject "StreetViewClassification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12892C9D282FDF08006BFBB3 /* Debug */,
+				12892C9E282FDF08006BFBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12892C9F282FDF08006BFBB3 /* Build configuration list for PBXNativeTarget "StreetViewClassification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12892CA0282FDF08006BFBB3 /* Debug */,
+				12892CA1282FDF08006BFBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		12CD81A1286189BC00EF9CF7 /* XCRemoteSwiftPackageReference "Siren" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ArtSabintsev/Siren";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12CD81A2286189BC00EF9CF7 /* Siren */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12CD81A1286189BC00EF9CF7 /* XCRemoteSwiftPackageReference "Siren" */;
+			productName = Siren;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 12892C89282FDF07006BFBB3 /* Project object */;
+}

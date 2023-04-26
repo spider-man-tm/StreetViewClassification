@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "siren",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ArtSabintsev/Siren",
+      "state" : {
+        "revision" : "8afe1fe943260dc5305d869e2c80e6b7f28ca31d",
+        "version" : "6.0.3"
+      }
+    }
+  ],
+  "version" : 2
+}
